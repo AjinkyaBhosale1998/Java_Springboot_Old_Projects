@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js">
+<script>
+
+
+
+
+$(document).ready(function(){
+
+$("button").click(function(){ /*selsector for click */
+
+$("div").animate({width:"100px",height:"200px",opacity:"0.2",borderradius:"50px"},500,function(){
+alert("done bro");
+});
+
+
+});
+
+});
+
+
+
+
+</script>
+</head>
+<body>
+
+
+
+
+<div style="width:300px;height:300px;background-color:red">hey</div>
+
+
+
+<p> status</p>
+<button>ClickME</button>
+</body>
+</html>
